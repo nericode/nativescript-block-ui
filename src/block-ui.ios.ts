@@ -3,7 +3,7 @@ import * as utils from "tns-core-modules/utils/utils";
 
 declare const UIApplication;
 
-export class BlockUi extends Common {
+export class BlockUI extends Common {
     public lock() {
         utils.ios
             .getter(UIApplication, UIApplication.sharedApplication)

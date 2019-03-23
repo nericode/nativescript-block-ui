@@ -3,7 +3,7 @@ import * as application from "tns-core-modules/application";
 
 declare const android: any;
 
-export class BlockUi extends Common {
+export class BlockUI extends Common {
     public lock() {
         let activity = application.android.foregroundActivity;
 

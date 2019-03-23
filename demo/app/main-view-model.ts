@@ -12,6 +12,9 @@ export class HelloWorldModel extends Observable {
 
     public lock() {
         this.blockUI.lock();
+        setTimeout(() => {
+            this.blockUI.unlock();
+        }, 5000);
     }
 
     public unlock() {
